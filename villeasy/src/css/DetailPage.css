@@ -1,0 +1,161 @@
+.detailBox-Top {
+  display: flex;
+  width: 75rem;
+  margin: 0 auto;
+  padding: 45px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.detailImage-Top {
+  height: 470px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(214, 209, 209);
+}
+
+.detail-top-box {
+  margin-left: 100px;
+  width: 600px;
+}
+
+.detail-top-title {
+  font-size: 35px;
+  font-family: "Black Han Sans";
+  margin-bottom: 20px;
+}
+
+.detail-top-price {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(103, 101, 101);
+  margin-bottom: 20px;
+}
+
+.detail-top-content {
+  font-size: 17px;
+  font-weight: bold;
+  white-space: initial;
+  margin-bottom: 20px;
+  color: rgb(103, 101, 101);
+}
+
+.detail-top-help {
+  font-size: 17px;
+  color: rgb(103, 101, 101);
+  white-space: initial;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.detail-top-box > button {
+  background-color: rgb(238, 228, 34);
+  border: 2px solid saddlebrown;
+  padding: 15px;
+  color: rgba(24, 21, 5, 0.621);
+}
+.kakaoBTN-TOP {
+  width: 160px;
+  height: 100px;
+}
+.kakaoBTN {
+  background-color: #fee500;
+  padding: 15px;
+  width: 160px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px 1px rgb(222, 219, 219);
+}
+.kakaoBTN:hover {
+  padding: 16px;
+}
+.kakaoBTN > button {
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 12px;
+  color: #fee500;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: rgb(36, 35, 35);
+}
+
+.kakaoBTN-BOTTOM {
+  font-size: 13px;
+  margin-top: -17px;
+}
+
+.Tab {
+  width: 70rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+.BTN1{
+  padding: 20px;
+  cursor: pointer;
+
+}
+
+.orange{
+  background-color:rgb(54, 53, 53);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.orange2{
+  background-color: rgb(54, 53, 53);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.BTN2{
+  padding: 20px;
+  cursor: pointer;
+}
+
+.TabBox{
+  width: 70rem;
+  margin: 0 auto;
+ 
+  border-top: 2px solid rgb(54, 53, 53);
+  padding-Bottom:20vh
+  /* height:'auto', minHeight:'100%',paddingBottom:'150vh' */
+}
+
+.TabBox>h2{
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.TabBox>img{
+  width: 100%;
+}
+.TabBox>p{
+  padding: 20px;
+  line-height: 30px;
+}
+
+.TabBox>.TabBox-Image1{
+  background-image: url('https://i.imgur.com/xS9XsHL.jpg');
+  background-size: cover;
+  width: 1120px;
+  height: 1120px;
+  margin: 0 auto;
+}
+
+.TabBox>.TabBox-Image2{
+  background-image: url('https://i.imgur.com/Q0MeOm3.jpg');
+  background-size: cover;
+  width: 1120px;
+  height: 1120px;
+  margin: 0 auto;
+}
+
+.TabBox>.TabBox-Image2{
+  /* background-image: url('https://i.imgur.com/Q0MeOm3.jpg'); */
+  background-size: cover;
+  width: 1120px;
+  height: 1120px;
+  margin: 0 auto;
+}

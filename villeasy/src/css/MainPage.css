@@ -1,0 +1,332 @@
+.MainPageTitle {
+  text-align: center;
+  font-family: "Black Han Sans";
+  font-size: 60px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.hamburger {
+  display: none;
+  background-color: rgb(44, 42, 42);
+  padding: 20px;
+  width: 100vw;
+}
+
+.fontAsome {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.hamburgerText {
+  font-family: "Black Han Sans";
+  font-size: 30px;
+  color: orange;
+  margin-left: 20px;
+}
+
+.hamburgerMenu {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.hamburgerMenu > ul > li {
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 1px solid rgb(107, 104, 104);
+  color: white;
+  font-family: "Black Han Sans";
+}
+.hamburgerMenu > ul > li:hover {
+  cursor: pointer;
+  color: orange;
+}
+.show-menu {
+  display: block;
+}
+
+.hide-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .ServeNav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    width: 100%;
+  }
+  .MainPageTitle {
+    font-size: 30px;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+  .QAtitle {
+    font-size: 15px;
+    width: 100%;
+  }
+  .QAcontent {
+    font-size: 13px;
+  }
+  .imBox {
+    width: 60%;
+  }
+
+  .ReservationQ1 {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .foot > img {
+    display: none;
+  }
+  footer {
+    font-size: 12px;
+    margin-top: 15%;
+    /* height: 150px; */
+    height: auto;
+  }
+  .foot {
+    /* background-color: red; */
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  .footer1,
+  .footer2 {
+    margin: 0 auto;
+  }
+  .ServeNav {
+    display: none;
+  }
+  .hamburger {
+    background-color: orange;
+  }
+
+  .hamburgerText {
+    color: rgb(44, 42, 42);
+  }
+  .container2 > .detailBox-Top {
+    width: 100%;
+  }
+  .detailBox-Top > img {
+    width: 340px;
+    height: 340px;
+  }
+  .detailBox-Top > .detail-top-box {
+    width: 40%;
+    margin-left: 50px;
+  }
+  .detail-top-box > .detail-top-title {
+    font-size: 150%;
+  }
+
+  .detail-top-box > .detail-top-price {
+    font-size: 120%;
+  }
+
+  .detail-top-box > .detail-top-content {
+    font-size: 80%;
+  }
+  .detail-top-box > .detail-top-help {
+    font-size: 80%;
+  }
+
+  .container2 > .Tab {
+    margin-left: 30px;
+    width: 250px;
+  }
+
+  .container2 > .TabBox {
+    font-size: 13px;
+    width: 100%;
+    padding: 20px;
+
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 25vh;
+  }
+
+  
+
+  .container2 > .TabBox > p {
+    white-space: normal;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    width: 100%;
+    background-color: rgb(44, 42, 42);
+  }
+  .hamburgerText {
+    color: orange;
+  }
+  .MainPageTitle {
+    font-size: 30px;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* detailPage css */
+
+  .container2 > .detailBox-Top {
+    border: 0;
+    flex-direction: column;
+    margin: initial;
+    width: 100%;
+    margin-top: -55px;
+  }
+  .detailBox-Top > img {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .detailBox-Top > .detail-top-box {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .detail-top-box > .detail-top-title {
+    font-size: 24px;
+    color: black;
+  }
+  .detail-top-box > .detail-top-price {
+    font-size: 17px;
+    margin-top: -1px;
+    color: black;
+  }
+  .detail-top-box > .detail-top-content {
+    font-size: 15px;
+  }
+  .detail-top-box > .detail-top-help {
+    font-size: 15px;
+  }
+
+  .container2 > .TabBox {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 25vh;
+  }
+
+  /*footer css*/
+  footer {
+    height: auto;
+  }
+  .foot {
+    font-size: 14px;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .footer1,
+  .footer2 {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .footer1 > p,
+  .footer2 > p {
+    margin-bottom: 4px;
+    font-size: 13px;
+  }
+
+  .foot > img {
+    display: none;
+  }
+
+  /*reservation css*/
+
+  .userQA {
+    display: none;
+  }
+
+  .ReservationQ1 {
+    width: 100%;
+    font-size: 15px;
+    white-space: normal;
+    margin: 0 auto;
+  }
+  .ReservationA {
+    border: 0;
+    width: 100%;
+    font-size: 15px;
+    white-space: normal;
+    margin: 0 auto;
+  }
+  .ReservationA > p {
+    white-space: normal;
+  }
+  .pageBox {
+    width: 100%;
+  }
+
+  .pageBoxT {
+    text-align: center;
+    font-size: 23px;
+    margin-top: -50px;
+  }
+  /* Q&A css */
+  .QAtop {
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+  .QAtitle {
+    width: 100%;
+    font-size: 15px;
+    white-space: normal;
+    margin: 0 auto;
+  }
+  .QAcontent {
+    width: 100%;
+    border: 0;
+    font-size: 15px;
+    white-space: normal;
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+  }
+
+  .PageBoxChild {
+    margin-left: -50px;
+  }
+
+  .imBox {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .stikerAll {
+    display: none;
+  }
+
+  .mobile1,
+  .mobile2 {
+    display: block;
+  }
+
+  .ServeNav {
+    display: none;
+  }
+}

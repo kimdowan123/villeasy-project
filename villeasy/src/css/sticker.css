@@ -1,0 +1,21 @@
+.stiker1 {
+  width: 60px;
+}
+.stiker2 {
+  width: 60px;
+}
+.stiker3 {
+  width: 60px;
+}
+.stikerAll {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  z-index: 150;
+}
+.stikerAll > a > img:hover {
+  width: 73px;
+  cursor: pointer;
+}
+
+

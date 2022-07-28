@@ -1,0 +1,36 @@
+footer {
+    width: 100%;
+    height: 25vh;
+    padding: 20px;
+    position : relative;
+    transform : translateY(-100%);
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    text-align: left;
+    background-color: rgb(46, 44, 44);
+  }
+  .foot {
+    /* padding: 30px; */
+    display: flex;
+    background-color: rgb(46, 44, 44);
+    margin: 0 auto;
+    width: 54rem;
+  }
+  .footer1 {
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .footer2 {
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 40%;
+  }
+  .footer2>p{
+    white-space: initial;
+  }
+
+  .footer-title{
+    color: rgb(193, 180, 180);
+    font-weight: bold;
+  }

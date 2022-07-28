@@ -1,0 +1,29 @@
+.mobile1 {
+  display: none;
+  left: 70%;
+  bottom: 2%;
+  position: fixed;
+  width: 41px;
+  height: 41px;
+  color: rgb(138, 202, 42);
+  margin-left: 9px;
+  cursor: pointer;
+  border-radius: 100px;
+  box-shadow: 1px 1px 1px 1px gray;
+  margin-bottom: 10px;
+  z-index: 99;
+}
+.mobile1:hover{
+  width: 43px;
+}
+.mobile2 {
+  z-index: 99;
+  display: none;
+  left: 83%;
+  bottom: 2%;
+  position: fixed;
+  width: 60px;
+}
+.mobile2:hover{
+  width: 62px;
+}

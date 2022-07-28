@@ -1,0 +1,32 @@
+.mapBox {
+    display: flex;
+  }
+  
+  .mapItem {
+    margin-top: 10px;
+  }
+  
+  .mapItem2 {
+    /* margin-left: 70px; */
+    padding: 20px;
+  }
+  
+  .mapTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .mapContent {
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .PageBoxChild{
+    margin: 0 auto;
+  }
+  .kakaoTalk {
+    font-size: 13px;
+    font-weight: bold;
+    color: orange;
+  }

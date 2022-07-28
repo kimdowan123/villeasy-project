@@ -1,0 +1,26 @@
+.ServeNav{
+    position: fixed;
+    bottom: 27%;
+    left: 5%;
+    box-shadow: 2px 2px 2px 2px rgb(188, 187, 187);
+    background-color: white;
+}
+
+
+.ServeNav>ul>li{
+    padding: 27px;
+    border: 1px solid gray;
+}
+.Gokakao{
+    text-decoration: none;
+    color: black;
+}
+.Gokakao:hover{
+    color: white;
+}
+
+.ServeNav>ul>li:hover{
+    color: white;
+    background-color: rgb(71, 68, 68);
+    cursor: pointer;
+}

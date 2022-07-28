@@ -1,0 +1,30 @@
+.ReservationQ1 {
+    margin-bottom: 10px;
+    background-color: rgb(108, 106, 106);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 40px;
+    width: 54rem;
+    white-space: initial;
+  }
+  
+  .ReservationA {
+    margin-bottom: 50px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  
+  .ReservationA > p {
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+
+  .pageBoxT{
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    font-family: Black Han Sans;
+  }
+

@@ -1,0 +1,257 @@
+#product-content {
+  white-space: initial;
+}
+.product-set-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin: 0 auto;
+  /* width: 80rem; */
+  width: 100%;
+  border: 1px solid white;
+
+}
+
+.product-set {
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 80px;
+  
+}
+
+.product-img {
+  width: 100%;
+  height: 250px;
+  box-shadow: 1px 1px 1px 1px rgb(237, 233, 233);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product-img:hover {
+  transform: scale(0.98);
+  transition: 0.5s;
+  filter: brightness(60%);
+}
+.product-title-chi{
+  color: gray;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  white-space:normal;
+}
+.product-price{
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+.testtest {
+  width: 1130px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.product-title{
+  text-align: center;
+  width: 100%;
+  margin-top: 80px;
+  margin: 0 auto;
+  font-family: "Black Han Sans";
+  font-size: 40px;
+  font-weight: 400;
+}
+.product-warning {
+  font-size: 23px;
+  color: lightcoral;
+  
+}
+
+.product-top {
+  background-image: url(/public/image/camping.jpg);
+  width: 100%;
+  min-width: 1200px;
+  min-height: 500px;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+  /* 배경이 줄었을떄 중앙부터 채워짐 */
+  background-position: bottom;
+  /* 사진에 단독 필터적용 */
+  filter: brightness(100%);
+  font-family: "Black Han Sans";
+  font-size: 40px;
+  margin-top: -1px;
+  padding: 1px;
+}
+
+.product-bottom{
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 25vh;
+}
+
+.sortBox {
+  width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+.sortBox > button {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(210, 208, 208);
+  color: rgb(50, 49, 49);
+}
+.sortBox > button:hover {
+  background-color: lightsalmon;
+  color: white;
+}
+
+.historyProduct {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 40px;
+  bottom: 23%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
+  z-index: 3;
+}
+
+.historyText {
+  font-family: initial;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(57, 56, 56);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.historyImage {
+  width: 90px;
+  height: 90px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+ 
+}
+.historyImage:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+  transition: 0.2s;
+  filter: brightness(60%);
+}
+
+.historyTitle {
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+  white-space: initial;
+  margin-bottom: 5px;
+}
+
+.product-top-text {
+  color: white;
+  margin-top: 300px;
+  margin-left: 45%;
+  width: 50%;
+  text-align: end;
+}
+@media screen and (max-width: 1400px ){
+  .historyProduct{
+    display: none;
+  }
+}
+
+/* 테블릿모드 */
+@media screen and (max-width: 1024px ){
+    .product-top{
+      display: none;
+    }
+    .testtest{
+      width: 750px;
+    }
+
+    .product-set{
+      width: 155px;
+    }
+
+    .product-img{
+      height: 150px;
+    }
+
+    .product-title-chi{
+      font-size: 13px;
+    }
+    .product-price{
+      font-size: 12px;
+    }
+
+    .sortBox{
+      width: 700px;
+    }
+}
+
+/* 모바일모드 */
+@media screen and (max-width: 768px) {
+
+
+  .testtest{
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .product-set{
+    width: 143px;
+    height: 143px;
+  }
+  .product-img{
+    height: 143px;
+  }
+  .product-title-chi{
+    font-size: 13px;
+  }
+  .product-price{
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .product-title{
+    font-size: 20px;
+  }
+  .product-warning{
+    font-size: 17px;
+  }
+  .sortBox {
+    /* width: 100%;
+    justify-content: center;
+    float: left;
+    /* margin-left: 140px; */
+    display: none;
+  }
+
+  .sortBox > button {
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 5px;
+    margin: initial;
+    margin: auto 3px;
+  }
+
+  .historyProduct{
+    display: none;
+  }
+
+  
+}

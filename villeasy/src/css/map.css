@@ -1,0 +1,30 @@
+.mapping {
+  margin: 0 auto;
+  border: 0.1px solid rgb(93, 92, 92);
+  border-radius: 5px;
+  width: 34rem;
+  height: 400px;
+  margin-right: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .mapping {
+    width: 340px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mapping {
+    width: 100%;
+    height: 350px;
+    margin-top: -20px;
+  }
+  
+  .mapItem2 {
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+  }
+  
+  .mapBox {
+    flex-direction: column;
+  }
+}
