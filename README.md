@@ -14,12 +14,14 @@
 # 적용 기술
 ## react
 - useState,useEffect 등 리액트 훅사용
+--useState 를 이용해 웹에 즉각렌더
+  useEffect 와 같은 라이플 사이클 이용해 애니메이션,상품정보 ,axios요청 등 구현
 - component 으로 페이지분리
 - Route사용으로 spa구현
 
 ## node.js
 - session 로그인
 ## mongoDB
-
+- nosql db 이용
 # 구현 기능
 - 관리자 로그인, 관리자 기능( crud ) , 카카오지도api
