@@ -13,9 +13,8 @@
 
 # 적용 기술
 ## react
-- useState,useEffect 등 리액트 훅사용
-  useState 를 이용해 웹에 즉각렌더
-  useEffect 와 같은 라이플 사이클 이용해 애니메이션,상품정보 ,axios요청 등 구현
+- useState,useEffect 등 리액트 훅사용(useState 를 이용해 웹에 즉각렌더 , useEffect 와 같은 라이플 사이클 이용해 애니메이션,상품정보 ,axios요청 등 구현)
+- useNavigate,useParams 와 같은 react-router-dom 이용(useNavigate를 이용해 페이지 간 이동구현 , useParams를 이용해 상품고유id 값 전달(상품 디테일페이지 구현) )
 - component 으로 페이지분리
 - Route사용으로 spa구현
 
