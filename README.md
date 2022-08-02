@@ -1,5 +1,5 @@
 # villeasy 프로젝트 소개
-바로가기 https://villeasy.du.r.appspot.com/
+바로가기 https://villeasy-camping.du.r.appspot.com/
 
 ![홈](https://user-images.githubusercontent.com/97826223/178409694-96eb1a90-3c25-4198-8741-031a92640487.png)
 
