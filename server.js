@@ -32,8 +32,6 @@ app.get('/', function (req, res) {
 
 
 
-
-
 // db에서 상품 데이터 찾아서 프론트로 보내줌
 app.get('/api/product', function (req, res) {
 	db.collection('product').find().toArray(function (error, result1) {

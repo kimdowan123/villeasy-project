@@ -14,7 +14,6 @@ function Admin() {
             <div>
                 <div className="adminBox">
                     <h3>관리자 페이지</h3>
-
                     <label>아이디</label>
                     <input onInput={(e) => {
                         setId(e.target.value)
