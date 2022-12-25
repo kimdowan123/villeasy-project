@@ -12,7 +12,7 @@ const methodOverride = require('method-override')
 app.use(methodOverride('_method')) //method override 하기위한코드
 
 var db;
-MongoClient.connect('mongodb+srv://kdw0247:324ehdhks@cluster0.kgri4.mongodb.net/?retryWrites=true&w=majority', { useUnifiedTopology: true }, function (error, client) {
+MongoClient.connect('', { useUnifiedTopology: true }, function (error, client) {
 	if (error) return console.log(error)
 	db = client.db('villeasy');
 	console.log('db 연결완료')
